@@ -8,7 +8,7 @@ A rail shooter game in which the player's spaceship can perform actions such as 
 
 **Game Engine:** Unity
 
-**Implementation using:** C# in Visual Studio
+**Implementation using:** C# in Visual Studio Code
 
 **Learning:**
 Developed the game using Unity's Time Line tool for scripted player experiences and terrain tools for world creation.
