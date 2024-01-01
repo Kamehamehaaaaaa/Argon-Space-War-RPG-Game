@@ -7,6 +7,7 @@ public class MusicPlayer : MonoBehaviour
     void Awake() 
     {
         int numMusicPlayers = FindObjectsOfType<MusicPlayer>().Length;
+        
         if (numMusicPlayers > 1)
         {
             Destroy(gameObject);
@@ -15,5 +16,11 @@ public class MusicPlayer : MonoBehaviour
         {
             DontDestroyOnLoad(gameObject);
         }
+    }
+
+    // Destroy Audio Manager object when scene switched to Main Menu.
+    public void DestroyMusicForMainMenu()
+    {
+        Destroy(gameObject);
     }
 }

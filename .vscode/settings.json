@@ -52,5 +52,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Argon Space War Game.sln"
+    "dotnet.defaultSolution": "Argon-Space-War-RPG-Game.sln"
 }
